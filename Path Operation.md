@@ -36,6 +36,7 @@ Note - explaination pending
 
 ### Get Parent directory
 BASE_DIR is pointing to the parent directory of PROJECT_ROOT
+
 **PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))**
 os.path.dirname() function simply removes the last segment of a path.
 
@@ -45,6 +46,6 @@ os.path.abspath() function is used to turn that into an absolute path before rem
 
 ### Needs to explain
 path = (os.path.realpath(__file__))
-path = getParent(path,2)
+
 
 
