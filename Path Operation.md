@@ -55,6 +55,7 @@ newPath = path.replace(os.sep, '/')
 print(newPath)  # -> C:/temp/myFolder/example/
 
 ### Os path Join
+
 import os
 path = "/home"
 print(os.path.join(path, "User/Desktop", "file.txt"))
