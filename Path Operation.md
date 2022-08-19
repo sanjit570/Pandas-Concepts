@@ -31,6 +31,7 @@ Absolute path include root directory
 "C:\\Users\\sam\projects""
 Relative Path
 ..\\projects
+
 ~ocean\\otter
 Note - explaination pending
 
@@ -47,5 +48,9 @@ os.path.abspath() function is used to turn that into an absolute path before rem
 ### Needs to explain
 path = (os.path.realpath(__file__))
 
-
+### Path slash change
+import os
+path = "C:\\temp\myFolder\example\\"
+newPath = path.replace(os.sep, '/')
+print(newPath)  # -> C:/temp/myFolder/example/
 
